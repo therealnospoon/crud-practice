@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.7.11"
   }
 }
