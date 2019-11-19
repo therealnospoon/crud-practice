@@ -37,7 +37,6 @@ app.delete("/foods/:id", async (req, res) => {
 app.patch("/foods/:id", async (req, res) => {
   try {
     await foodModel.findByIdAndUpdate(req.params.id, req.body);
-    console.log(foodModel);
     await foodModel.save();
     res.send(food);
   } catch (err) {
